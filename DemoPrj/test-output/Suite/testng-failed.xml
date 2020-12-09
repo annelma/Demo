@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="POM1(failed)">
+    <classes>
+      <class name="Test.LoginTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="f"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- Test.LoginTest -->
+      <class name="Test.RegisterTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Test.RegisterTest -->
+    </classes>
+  </test> <!-- POM1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
